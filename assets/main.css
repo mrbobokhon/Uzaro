@@ -1,0 +1,314 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    .container_css {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .navbar_bg {
+        background: rgba(54, 96, 165, 0.8);
+    }
+    
+    .navbar a {
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-right: 20px;
+    }
+    
+    .logo {
+        width: 153px;
+        height: 45;
+    }
+    
+    #first .first {
+        margin-top: 7rem;
+        text-align: start;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        letter-spacing: 0.03em;
+        color: #046CB1;
+    }
+    
+    #first .second {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        letter-spacing: 0.03em;
+        color: #233C47;
+    }
+    
+    #first .btn {
+        border: 3px solid #046CB1;
+        border-radius: 10px;
+    }
+    
+    #first .btn_txt {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #5E80B7;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    
+    #first .parent {
+        position: relative;
+    }
+    
+    #first .image_1 {
+        max-width: 100%;
+        max-height: auto;
+        position: relative;
+    }
+    
+    #first .image_2 {
+        max-width: 100%;
+        max-height: auto;
+        position: absolute;
+        top: 11vw;
+        left: -8vw;
+    }
+    /* 2 */
+    
+    #second .text {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3rem;
+        /* line-height: 68px; */
+        /* letter-spacing: 0.03em; */
+        color: #046CB1;
+        max-width: 100%;
+    }
+    
+    #second .title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 68px;
+        letter-spacing: 0.03em;
+        color: #3660A5;
+    }
+    
+    #second .btn {
+        border: 3px solid #046CB1;
+        border-radius: 10px;
+    }
+    
+    #second .btn_txt {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #5E80B7;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    
+    #second img {
+        width: 534.09px;
+        height: 297.66px;
+        max-height: auto;
+        max-width: 100%;
+    }
+    /* 3 */
+    
+    #third .title {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 59px;
+        /* identical to box height */
+        color: #3660A5;
+    }
+    
+    #third .btn {
+        border: 3px solid #046CB1;
+        border-radius: 10px;
+    }
+    
+    #third .btn_txt {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        color: #5E80B7;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    
+    #third img {
+        width: 534.09px;
+        height: 297.66px;
+        max-height: auto;
+        max-width: 100%;
+    }
+    /* About */
+    
+    #about .title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 68px;
+        letter-spacing: 0.03em;
+        color: #3660A5;
+    }
+    
+    #about .col-md-6 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: #046CB1;
+        max-width: 100%;
+    }
+    
+    #about p {
+        display: inline-block;
+    }
+    
+    #about i {
+        display: inline-block;
+        font-size: 190px;
+        color: black;
+    }
+    
+    #about img {
+        max-width: 100%;
+        max-height: auto;
+    }
+    /* Team */
+    
+    #team p {
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #233C47;
+    }
+    
+    #team.lawyear {
+        font-style: normal;
+        font-weight: 100;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #233C47;
+    }
+    /* Forns */
+    
+    #forms .title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 150%;
+        /* identical to box height, or 84px */
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #3660A5;
+    }
+    
+    #forms .content {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+        text-align: center;
+        color: #233C47;
+    }
+    
+    #forms .btn {
+        background-color: #3660A5;
+        color: white;
+    }
+    
+    #forms .btn p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 150%;
+        /* identical to box height, or 36px */
+        text-align: center;
+        color: #FFFFFF;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+    }
+    
+    #footer .title {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 150%;
+        /* identical to box height, or 84px */
+        letter-spacing: 0.03em;
+        color: #046CB1;
+    }
+    
+    #footer .location {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        /* or 27px */
+        letter-spacing: 0.02em;
+        color: #19303B;
+    }
+    
+    #footer .phone {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 150%;
+        /* identical to box height, or 27px */
+        letter-spacing: 0.02em;
+        color: #3660A5;
+        cursor: pointer;
+    }
+    
+    #footer img {
+        width: 640px;
+        height: 371px;
+        border-radius: 25px;
+        max-width: 100%;
+        max-height: auto;
+    }
+    
+    #footer .social_media {
+        color: #3660A5;
+        font-size: 40px;
+    }
